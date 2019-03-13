@@ -330,11 +330,13 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
 		<dependency>
-      <groupId>com.rabbitmq</groupId>
-      <artifactId>amqp-client</artifactId>
-      <version>3.0.4</version>
+		    <groupId>com.rabbitmq</groupId>
+		    <artifactId>amqp-client</artifactId>
+		    <version>5.0.0</version>
 		</dependency>
+
 		<!-- 序列化相关依赖 -->
 		<dependency>
 		    <groupId>commons-lang</groupId>
